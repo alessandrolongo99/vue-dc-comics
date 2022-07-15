@@ -1,13 +1,14 @@
 <template>
-  
+  <div class="fs-1 text-white">--> Content goes here </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
+<style scoped>
+    div{
+        background-color: #1c1c1c;
+        padding: 4rem;
+    }
 </style>

@@ -1,8 +1,8 @@
 <template>
-  <nav class="d-flex justify-content-around align-items-center">
+  <nav class="container d-flex justify-content-between align-items-center">
     <img src="../assets/img/dc-logo.png" alt="dc-logo">
     <ul class="d-flex align-items-center">
-        <li v-for="(link, index) in navLinks" :key="index" class="text-uppercase fw-bold">
+        <li v-for="(link, index) in navLinks" :key="index" class="fs-6 text-uppercase fw-bold">
             {{link.text}}
         </li>
     </ul>
