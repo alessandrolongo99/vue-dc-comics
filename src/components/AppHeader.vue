@@ -1,9 +1,9 @@
 <template>
-  <nav class="container d-flex justify-content-between align-items-center">
+  <nav class="container d-flex justify-content-between align-items-center px-0">
     <img src="../assets/img/dc-logo.png" alt="dc-logo">
     <ul class="d-flex align-items-center">
-        <li v-for="(link, index) in navLinks" :key="index" class="fs-6 text-uppercase fw-bold">
-            {{link.text}}
+        <li v-for="(link, index) in dcComicsLinks" :key="index" class="fs-6 text-uppercase fw-bold">
+            <a href="#">{{link.text}}</a>
         </li>
     </ul>
   </nav>
@@ -13,46 +13,36 @@
 export default {
     data: function(){
         return {
-            navLinks:[
+            dcComicsLinks:[
                 {
                 text: 'characters',
-                url: '#'
                 },
                 {
                 text: 'comics',
-                url: '#'
                 },
                 {
                 text: 'movies',
-                url: '#'
                 },
                 {
                 text: 'tv',
-                url: '#'
                 },
                 {
                 text: 'games',
-                url: '#'
                 },
                 {
                 text: 'collectibles',
-                url: '#'
                 },
                 {
                 text: 'videos',
-                url: '#'
                 },
                 {
                 text: 'fans',
-                url: '#'
                 },
                 {
                 text: 'news',
-                url: '#'
                 },
                 {
                 text: 'shop',
-                url: '#'
                 },
             ]
         }
@@ -62,7 +52,7 @@ export default {
 
 <style>
 nav{
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 img{
@@ -73,5 +63,10 @@ ul li{
     text-decoration: none;
     display: inline-block;
     padding: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
 }
 </style>
