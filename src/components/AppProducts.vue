@@ -1,5 +1,5 @@
 <template>
-    <div class="products-container container p-0">
+    <div class="products-container container p-0 d-flex flex-column align-items-center">
         <div class="row">
             <ProductCard v-for="(product, index) in products"
             :key="index"
@@ -7,6 +7,9 @@
             :productSeries="product.series"
             />
         </div>
+        <span class="load-more text-uppercase fs-3 fw-bold px-4 py-2">
+            load more
+        </span>
     </div>
 </template>
 
@@ -112,5 +115,9 @@ export default {
 </script>
 
 <style>
-
+.load-more{
+    display: inline-block;
+    background-color: #0282f9;
+    margin: 2rem 0;
+}
 </style>

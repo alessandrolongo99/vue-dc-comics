@@ -3,7 +3,7 @@
     <div class="img-container">
       <img :src="imageSrc" :alt="productSeries" />
     </div>
-    <h6 class="mt-2">{{ productSeries }}</h6>
+    <h6 class="mt-2 text-uppercase">{{ productSeries }}</h6>
   </div>
 </template>
 
