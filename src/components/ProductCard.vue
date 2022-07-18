@@ -3,7 +3,7 @@
     <div class="img-container">
       <img :src="imageSrc" :alt="productSeries" />
     </div>
-    <h6 class="mt-3">{{ productSeries }}</h6>
+    <h6 class="mt-2">{{ productSeries }}</h6>
   </div>
 </template>
 
@@ -25,7 +25,10 @@ export default {
 }
 
 img {
+    display: inline-block;
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 </style>

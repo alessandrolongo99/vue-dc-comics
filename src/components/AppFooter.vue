@@ -124,7 +124,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .container-background {
   background-image: url("../assets/img/footer-bg.jpg");
   background-size: cover;
@@ -147,6 +147,10 @@ li {
 
 li a {
   color: white;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 .hidden-bg-logo {
