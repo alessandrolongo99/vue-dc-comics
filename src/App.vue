@@ -24,6 +24,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../node_modules/bootstrap";
+@import "~bootstrap/scss/bootstrap";
 
 </style>

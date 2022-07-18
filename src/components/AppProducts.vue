@@ -1,6 +1,6 @@
 <template>
-    <div class="products-container">
-        <div>
+    <div class="products-container container p-0">
+        <div class="row">
             <ProductCard v-for="(product, index) in products"
             :key="index"
             :imageSrc="product.thumb"
@@ -112,4 +112,5 @@ export default {
 </script>
 
 <style>
+
 </style>
