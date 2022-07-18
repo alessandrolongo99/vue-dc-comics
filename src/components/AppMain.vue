@@ -1,11 +1,20 @@
 <template>
   <div class="container-bg-dark">
-    <div class="container fs-1 text-white">--> Content goes here</div>
+    <div class="container fs-1 text-white">
+      <AppProducts/>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import AppProducts from './AppProducts.vue'
+
+export default {
+  name: 'AppMain',
+  components: {
+    AppProducts,
+  }
+};
 </script>
 
 <style scoped>
