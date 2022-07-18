@@ -20,7 +20,7 @@
     <div class="container fs-1 text-white">
       <AppProducts />
     </div>
-    <div class="buy-products py-4">
+    <div class="buy-products py-5">
       <div class="container">
         <div class="row d-flex align-items-center justify-content-between">
           <div class="col-2">

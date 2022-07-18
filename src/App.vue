@@ -3,6 +3,7 @@
     <AppHeader/>
     <AppMain/>
     <AppFooter/>
+    <FooterBar/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppProducts from './components/AppProducts.vue';
+import FooterBar from './components/FooterBar.vue'
 
 export default {
   name: 'App',
@@ -19,6 +21,7 @@ export default {
     AppMain,
     AppProducts,
     AppFooter,
+    FooterBar,
   }
 }
 </script>
